@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <!-- Custom StyleSheet -->
   <link rel="stylesheet" href="./styles.css" />
-  <title>pika shop </title>
+  <title>pikaaaaaaaaaaaaa</title>
 </head>
 
 <body>
