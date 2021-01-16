@@ -142,7 +142,7 @@
         <div class="img-cover">
           <img src="./img/product2.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Security camera </p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -157,7 +157,7 @@
         <div class="img-cover">
           <img src="./img/product3.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartwatch </p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -171,7 +171,7 @@
         <div class="img-cover">
           <img src="./img/product4.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartphone</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -230,7 +230,7 @@
         <div class="img-cover">
           <img src="./img/product2.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Security camera PRO</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -245,7 +245,7 @@
         <div class="img-cover">
           <img src="./img/product3.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartwatch PRO</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -259,7 +259,7 @@
         <div class="img-cover">
           <img src="./img/product4.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartphone</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -273,7 +273,7 @@
         <div class="img-cover">
           <img src="./img/product5.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Androit Smartphone</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -287,7 +287,7 @@
         <div class="img-cover">
           <img src="./img/product6.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Headphones PRO </p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -301,7 +301,7 @@
         <div class="img-cover">
           <img src="./img/product7.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartwatch PRO</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -315,7 +315,7 @@
         <div class="img-cover">
           <img src="./img/product2.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Security camera X</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
