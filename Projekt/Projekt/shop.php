@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Boxicons -->
   <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+  <script src="shop.js"></script>
 
   <!-- Fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -127,61 +128,7 @@
       </div>
     </div>
   </section>
-  <!-- Slideshow container -->
-<div class="slideshow-container">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="img1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="img2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="img3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-  <!-- Shop By Category -->
-  <section class="section">
-    <div class="title">
-      <h1><span>Shop By</span> Categories</h1>
-    </div>
-    <div class="cat container">
-      <div class="item item-1">
-        <img src="./img/cat5.jpg" alt="" />
-      </div>
-      <div class="item item-2">
-        <img src="./img/cat3.jpg" alt="" />
-      </div>
-      <div class="item item-3">
-        <img src="./img/cat1.jpg" alt="" />
-      </div>
-      <div class="item item-4">
-        <img src="./img/cat2.jpg" alt="" />
-      </div>
-    </div>
-  </section>
 
   <!-- Popular Products -->
   <section class="section">
@@ -306,25 +253,25 @@
     </div>
   </section>
 
-  
+  <div></div>
 <div class="slideshow-container">
 
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="Hp Pavilion i5" style="width:100%">
+  <img src="./img/product2.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="Hp Pavilion i5" style="width:100%">
+  <img src="./img/product2.jpg" style="width:100%">
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="Hp Pavilion i5" style="width:100%">
+  <img src="./img/product2.jpg" style="width:100%">
   <div class="text">Caption Three</div>
 </div>
 
