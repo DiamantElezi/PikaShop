@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="promo">
-        <span>Get 30% OFF This Christmas Holidays</span>
+        <span>Get 30% off while using the code "336633"!!</span>
       </div>
      <!-- HEADER -->
   <header class="header">
@@ -87,7 +87,7 @@
         <div class="img-cover">
           <img src="./img/product2.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Security camera</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -102,7 +102,7 @@
         <div class="img-cover">
           <img src="./img/product3.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartwatch</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -116,7 +116,7 @@
         <div class="img-cover">
           <img src="./img/product4.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartphone</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -155,7 +155,7 @@
         <div class="img-cover">
           <img src="./img/product2.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Security cameras</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -170,7 +170,7 @@
         <div class="img-cover">
           <img src="./img/product3.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartwatch</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -184,7 +184,7 @@
         <div class="img-cover">
           <img src="./img/product4.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartphone</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -198,7 +198,7 @@
         <div class="img-cover">
           <img src="./img/product5.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Android smartphone</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -212,7 +212,7 @@
         <div class="img-cover">
           <img src="./img/product6.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Headphones PRO</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -226,7 +226,7 @@
         <div class="img-cover">
           <img src="./img/product7.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Smartwatch PRO</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -240,7 +240,7 @@
         <div class="img-cover">
           <img src="./img/product2.jpg" alt="" />
         </div>
-        <p>Hp Pavilion i5</p>
+        <p>Security camera X</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -259,7 +259,7 @@
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="./img/product2.jpg" style="width:100%">
+  <img src="./img/product1.jpg" style="width:100%">
   <div class="text">Caption Text</div>
 </div>
 
@@ -271,7 +271,7 @@
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
-  <img src="./img/product2.jpg" style="width:100%">
+  <img src="./img/product4.jpg" style="width:100%">
   <div class="text">Caption Three</div>
 </div>
 

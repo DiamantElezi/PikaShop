@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="promo">
-        <span>Get 30% OFF This Christmas Holidays</span>
+        <span>Get 30% off while using the code "336633"!!</span>
       </div>
       <!-- HEADER -->
       <header class="header">
@@ -93,10 +93,10 @@
                       <br><br>
                       <h3>Our Partners</h3>
                       <ul>
-                        <li><a href="#">Google.com</a></li>
-                      <li><a href="#">Facebook.com</a></li>
-                      <li><a href="#">Twitter.com</a></li>
-                      <li><a href="#">Instagram.com</a></li>
+                        <li><a href="www.google.com">Google.com</a></li>
+                      <li><a href="https://www.facebook.com">Facebook.com</a></li>
+                      <li><a href="https://twitter.com">Twitter.com</a></li>
+                      <li><a href="https://www.instagram.com">Instagram.com</a></li>
                     </ul>
                     </div>
                   </div>

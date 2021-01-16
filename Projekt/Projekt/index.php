@@ -16,7 +16,7 @@
 
 <body>
   <div class="promo">
-    <span>Get 30% OFF This Christmas Holidays</span>
+    <span>Get 30% off while using the code "336633"!!</span>
   </div>
   <!-- HEADER -->
   <header class="header">
@@ -74,10 +74,10 @@
             <span class="color">90% <br />
               Discount</span>
             on This <br />
-            Christmas Days
+            cold Days
           </h1>
 
-          <h5>From 20th Dec to 31st Dec</h5>
+          <h5>From 20th Jan to 31st jan</h5>
           <a href="#" class="btn">SHOP NOW</a>
         </div>
 
