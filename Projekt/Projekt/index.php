@@ -94,25 +94,25 @@
       <div class="service">
         <span class="icon"><i class="bx bx-purchase-tag"></i></span>
         <h4>Free Shipping</h4>
-        <span class="text">Capped at $39 per order</span>
+        
       </div>
 
       <div class="service">
         <span class="icon"><i class="bx bx-gift"></i></span>
         <h4>Securety Payments</h4>
-        <span class="text">Up to 12 months installment</span>
+
       </div>
 
       <div class="service">
         <span class="icon"><i class="bx bx-book-reader"></i></span>
         <h4>14-Day Returns</h4>
-        <span class="text">Shop with confidence</span>
+        
       </div>
 
       <div class="service">
         <span class="icon"><i class="bx bx-headphone"></i></span>
         <h4>24/7 Support</h4>
-        <span class="text">Delivered to your door</span>
+       
       </div>
     </div>
   </section>
@@ -150,7 +150,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$150</div>
       </div>
 
       <div class="product">
@@ -165,7 +165,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$300</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -179,7 +179,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$600</div>
       </div>
     </div>
   </section>
@@ -238,7 +238,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$200</div>
       </div>
 
       <div class="product">
@@ -253,7 +253,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$350</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -267,13 +267,13 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$600</div>
       </div>
       <div class="product">
         <div class="img-cover">
           <img src="./img/product5.jpg" alt="" />
         </div>
-        <p>Androit Smartphone</p>
+        <p>Android Smartphone</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -281,7 +281,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$500</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -295,7 +295,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$200</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -309,7 +309,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$350</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -323,7 +323,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$200</div>
       </div>
     </div>
   </section>

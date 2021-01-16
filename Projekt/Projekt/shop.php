@@ -95,7 +95,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$150</div>
       </div>
 
       <div class="product">
@@ -110,7 +110,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$150</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -124,7 +124,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$600</div>
       </div>
     </div>
   </section>
@@ -163,7 +163,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$150</div>
       </div>
 
       <div class="product">
@@ -178,7 +178,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$300</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -192,7 +192,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$600</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -206,7 +206,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$600</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -220,7 +220,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$200</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -234,7 +234,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$350</div>
       </div>
       <div class="product">
         <div class="img-cover">
@@ -248,7 +248,7 @@
           <i class="bx bxs-star"></i>
           <i class="bx bx-star"></i>
         </div>
-        <div class="price">$899</div>
+        <div class="price">$200</div>
       </div>
     </div>
   </section>
