@@ -231,29 +231,7 @@ input {
     <div class="promo">
         <span>Get 30% OFF This Christmas Holidays</span>
     </div>
-    <div class="menu">
-        <div class="top">
-          <span class="close">close <i class="bx bx-x"></i></span>
-        </div>
-
-        <ul class="nav-list d-flex">
-            <li class="nav-item">
-             <a href="index.php" class="nav-link"><b>Home</b></a>
-            </li>
-            <li class="nav-item">
-              <a href="shop.php" class="nav-link"><b>Shop</b></a>
-            </li>
-            <li class="nav-item">
-              <a href="about.php" class="nav-link"><b>About</b></a>
-            </li>
-            <li class="nav-item">
-                <a href="contact.php" class="nav-link"><b>Contact</b></a>
-              </li>
-              <li class="nav-item">
-                <a href="login.php" class="nav-link active"><b>Login</b></a> 
-              </li>
-          </ul>
-      </div>
+    
    <br><br><br>
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
