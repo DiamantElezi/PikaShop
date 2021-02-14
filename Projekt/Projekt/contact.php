@@ -1,19 +1,9 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Boxicons -->
-  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
-
-  <!-- Fontawesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-  <!-- Custom StyleSheet -->
-  <link rel="stylesheet" href="css/styles.css" />
-  <title>Pika Shop</title>
-  <style>
-      input[type=text], select, textarea {
+<?php 
+include 'inc/header.php';
+?>
+<style>
+  input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 2px solid rgb(255, 21, 243);
@@ -37,16 +27,16 @@ input[type=submit]:hover {
   background-color: #f700d6;
 }
 
-.contact-section {
+.contact-sectionn {
   border-radius: 5px;
   
   padding: 20px;
 }
-  </style>
-</head>
+ 
+</style>
 <body>
     <div class="promo">
-        <span>Get 30% OFF This Christmas Holidays</span>
+    <span>Get 30% off while using the code "336633"!!</span>
       </div>
      <!-- HEADER -->
   <header class="header">
@@ -95,7 +85,7 @@ input[type=submit]:hover {
       </nav>
       <br>
       <h1 style="text-align: center;">Contact Us!</h1>
-      <div class="contact-section">
+      <div class="contact-sectionn">
         <form>
           <label for="fname"><b>First Name</b></label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">

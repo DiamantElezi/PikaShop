@@ -90,7 +90,7 @@ if (isset($_POST['submit_signup'])) {
 </head>
 <body>
     <div class="promo">
-        <span>Get 30% OFF This Christmas Holidays</span>
+    <span>Get 30% off while using the code "336633"!!</span>
     </div>
     <div class="menu">
         <div class="top">

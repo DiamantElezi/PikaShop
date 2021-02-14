@@ -64,7 +64,7 @@ include 'inc/header.php';
           </h1>
 
           <h5>From 20th Jan to 31st jan</h5>
-          <a href="#" class="btn">SHOP NOW</a>
+          <a href="shop.php" class="btn">SHOP NOW</a>
         </div>
 
         <div class="right">
