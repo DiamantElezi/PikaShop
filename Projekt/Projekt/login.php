@@ -92,6 +92,7 @@ if (isset($_POST['submit_signup'])) {
     <div class="promo">
     <span>Get 30% off while using the code "336633"!!</span>
     </div>
+<<<<<<< HEAD
     <div class="menu">
         <div class="top">
           <span class="close">close <i class="bx bx-x"></i></span>
@@ -120,6 +121,9 @@ if (isset($_POST['submit_signup'])) {
                            <h5><?php echo $error; ?></h5>
                    </div>
            <?php endforeach; ?>
+=======
+    
+>>>>>>> 52147f0338cfe2c8bfb79e3938afb6155ec3fd6a
    <br><br><br>
    
 <div class="container" id="container">
