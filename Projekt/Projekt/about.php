@@ -5,9 +5,9 @@ include 'inc/header.php';
     <div class="promo">
         <span>Get 30% off while using the code "336633"!!</span>
       </div>
-      <!-- HEADER -->
+    
       <header class="header">
-        <!-- NAVIGATION -->
+       
         <nav class="nav container">
           <div class="navigation d-flex">
             <div class="hamburger">
