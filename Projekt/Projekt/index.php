@@ -68,7 +68,7 @@ include 'inc/header.php';
         </div>
 
         <div class="right">
-          <img src="./img/bg.png" alt="" />
+          <img src="./img/bng2.0.png" alt="" />
         </div>
       </div>
     </div>
@@ -177,7 +177,7 @@ include 'inc/header.php';
     </div>
     <div class="cat container">
       <div class="item item-1">
-        <img src="./img/cat5.jpg" alt="" />
+        <img src="./img/product2.jpg" alt="" />
       </div>
       <div class="item item-2">
         <img src="./img/cat3.jpg" alt="" />

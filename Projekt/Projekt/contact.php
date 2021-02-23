@@ -6,7 +6,7 @@ include 'inc/header.php';
   input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 2px solid rgb(255, 21, 243);
+  border: 2px color:;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -15,7 +15,7 @@ include 'inc/header.php';
 }
 
 input[type=submit] {
-  background-color: #f64afc;
+  background-color: #D3D3D3;
   color: rgb(0, 0, 0);
   padding: 12px 20px;
   border: 2px solid black;
@@ -24,7 +24,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #f700d6;
+  background-color: #87CEFA;
 }
 
 .contact-sectionn {

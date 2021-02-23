@@ -51,9 +51,9 @@ include 'inc/header.php';
         </nav>
 
         <div class="About-section">
-            <h1 style="color: rgb(255, 42, 77); text-align: center;">About Us</h1>
+            <h1 style="color: #87CEFA; text-align: center;">About Us</h1>
             <br><br>
-            <h2 style="color: rgb(252, 98, 150); text-align: center;">Welcome to PIKA SHOP!</h2>
+            <h2 style="color: #87CEFA; text-align: center;">Welcome to PIKA SHOP!</h2>
             <br>
             <div class="info">
               <div class="info_img">
