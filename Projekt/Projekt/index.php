@@ -34,8 +34,7 @@ include 'inc/header.php';
               </li>
               <li class="nav-item">
                 <a href="login.php" class="nav-link"><b>Login</b></a> 
-                 <li class="nav-item">
-                <a href="produkti.html" class="nav-link"><b>product</b></a> 
+                
               </li>
           </ul>
         </div>
@@ -56,12 +55,12 @@ include 'inc/header.php';
     <div class="hero">
       <div class="hero-content d-flex container">
         <div class="left">
-          <span class="subtitle">GET YOUR SPRING COLLECTION</span>
+          <span class="subtitle"> </span>
           <h1 class="title">
             Up to
             <span class="color">90% <br />
               Discount</span>
-            on This <br />
+            on These <br />
             cold Days
           </h1>
 
@@ -113,7 +112,9 @@ include 'inc/header.php';
     <div class="product-center container">
       <div class="product">
         <div class="img-cover">
-          <img src="./img/product1.jpg" alt="" />
+          
+          <img src="./img/product1.jpg" >
+
         </div>
         <p>Hp Pavilion i5</p>
         <div class="rating">
