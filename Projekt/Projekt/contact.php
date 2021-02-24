@@ -86,7 +86,7 @@ input[type=submit]:hover {
       <br>
       <h1 style="text-align: center;">Contact Us!</h1>
       <div class="contact-sectionn">
-        <form>
+        <form action="contactSend.php" method="POST">
           <label for="fname"><b>First Name</b></label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
       
@@ -95,7 +95,7 @@ input[type=submit]:hover {
           <label for="subject"><b>Subject</b></label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
       
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit" name = "submit">
         </form>
         <br><br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2934.077557973481!2d21.158016115184196!3d42.659711824118155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1608430980677!5m2!1sen!2s"
