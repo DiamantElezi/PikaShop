@@ -6,7 +6,7 @@ include 'inc/header.php';
   </div>
 
   <header class="header">
-
+<!-- hajdeee moree zooooot ishallaaaa e kryjm oo allaah -->
     <nav class="nav container">
       <div class="navigation d-flex">
         <div class="hamburger">
