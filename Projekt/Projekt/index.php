@@ -112,9 +112,9 @@ include 'inc/header.php';
     <div class="product-center container">
       <div class="product">
         <div class="img-cover">
-          
+          <a href="produkti.php">
           <img src="./img/product1.jpg" >
-
+          </a>
         </div>
         <p>Hp Pavilion i5</p>
         <div class="rating">
@@ -129,7 +129,18 @@ include 'inc/header.php';
 
       <div class="product">
         <div class="img-cover">
-          <img src="./img/product2.jpg" alt="" />
+          <a href="produkti2.php">
+          <img src="./img/camera.jpg" alt="" />
+          </a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          
+
+
         </div>
         <p>Security camera </p>
         <div class="rating">
@@ -144,7 +155,9 @@ include 'inc/header.php';
 
       <div class="product">
         <div class="img-cover">
+          <a href="produkti3.php">
           <img src="./img/product3.jpg" alt="" />
+          </a>
         </div>
         <p>Smartwatch </p>
         <div class="rating">
@@ -158,7 +171,9 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti4.php">
           <img src="./img/product4.jpg" alt="" />
+          </a>
         </div>
         <p>Smartphone</p>
         <div class="rating">
@@ -180,16 +195,24 @@ include 'inc/header.php';
     </div>
     <div class="cat container">
       <div class="item item-1">
-        <img src="./img/product2.jpg" alt="" />
+        <a href="produkti2.php">
+        <img src="./img/camera.jpg" alt="" />
+        </a>      
       </div>
       <div class="item item-2">
+        <a href="produkti9.php">
         <img src="./img/cat3.jpg" alt="" />
+        </a>
       </div>
       <div class="item item-3">
+        <a href="produkti10.php">
         <img src="./img/cat1.jpg" alt="" />
+        </a>
       </div>
       <div class="item item-4">
+        <a href="produkti11.php">
         <img src="./img/cat2.jpg" alt="" />
+        </a>      
       </div>
     </div>
   </section>
@@ -202,7 +225,9 @@ include 'inc/header.php';
     <div class="product-center container">
       <div class="product">
         <div class="img-cover">
+          <a href="produkti.php">
           <img src="./img/product1.jpg" alt="" />
+          </a>
         </div>
         <p>Hp Pavilion i5</p>
         <div class="rating">
@@ -217,8 +242,16 @@ include 'inc/header.php';
 
       <div class="product">
         <div class="img-cover">
-          <img src="./img/product2.jpg" alt="" />
+          <a href="produkti2.php">
+          <img src="./img/camera.jpg"  alt="" />
+          </a>        
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
         <p>Security camera PRO</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
@@ -232,7 +265,9 @@ include 'inc/header.php';
 
       <div class="product">
         <div class="img-cover">
+          <a href="produkti3.php">
           <img src="./img/product3.jpg" alt="" />
+          </a>        
         </div>
         <p>Smartwatch PRO</p>
         <div class="rating">
@@ -246,9 +281,13 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti.php">
+            <a href="produkti4.php">
           <img src="./img/product4.jpg" alt="" />
+          </a>
+          </a>
         </div>
-        <p>Smartphone</p>
+        <p>Smartphones</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
           <i class="bx bxs-star"></i>
@@ -260,7 +299,9 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti5.php">
           <img src="./img/product5.jpg" alt="" />
+          </a>
         </div>
         <p>Android Smartphone</p>
         <div class="rating">
@@ -274,7 +315,9 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti6.php"> 
           <img src="./img/product6.jpg" alt="" />
+          </a>
         </div>
         <p>Headphones PRO </p>
         <div class="rating">
@@ -288,7 +331,9 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti7.php">
           <img src="./img/product7.jpg" alt="" />
+          </a>
         </div>
         <p>Smartwatch PRO</p>
         <div class="rating">
@@ -302,8 +347,13 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
-          <img src="./img/product2.jpg" alt="" />
+          <a href="produkti8.php">
+          <img src="./img/11.jpg" alt="" />
+          </a>
         </div>
+        <br>
+        <br>
+
         <p>Security camera X</p>
         <div class="rating">
           <i class="bx bxs-star"></i>

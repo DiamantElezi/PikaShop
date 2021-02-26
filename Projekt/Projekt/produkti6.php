@@ -7,7 +7,7 @@ include 'inc/header.php';
   </div>
 
   <header class="header">
-<!-- hajdeee moree zooooot ishallaaaa e kryjm oo allaah -->
+
     <nav class="nav container">
       <div class="navigation d-flex">
         <div class="hamburger">
@@ -56,7 +56,7 @@ include 'inc/header.php';
  
   <!-- Left Column / Headphones Image -->
   <div class="left-column">
-    <img data-image="red" class="active" src="img/cat5.jpg" alt="">
+    <img data-image="red" class="active" src="./img/product6.jpg" alt="">
   </div>
  
  
@@ -65,16 +65,24 @@ include 'inc/header.php';
  
     <!-- Product Description -->
     <div class="product-description">
-      <span>Laptop</span>
-      <h1>Lenovo i5</h1>
-      <p>Shënim: Tastiera te pjesa numerike ka disa simbole çeke. Ndërsa, Microsoft Office është në verzion provues ose nuk është i instaluar fare. Lenovo IdeaPad S540-15IWL është dizajnuar që të përshtatet për të gjitha kërkesat tuaja specifike. Laptopi mban performancë të lartë, karakteristika shumë praktike dhe është më i lehtë dhe më i hollë sesa paraardhësit e tij. Punoni me efiçiencë dhe argëtohuni maksimalisht me këtë seri të laptopëve. Aksesori vjen i pajisur me procesorin 4-core Intel Core i5-8265U i cili kombinohet me 8GB RAM memorie të llojit DDR4, ekranin me prekje (touch) me madhësi 15.6", kualitet Full HD dhe rezolucion prej 1920 x 1080 piksela si dhe kartelën grafike NVIDIA GeForce GTX 1650 Max-Q për t'ju mundësuar që të shihni imazhe të pastërta dhe të detajizuara si dhe performancë të shpejtë kompjuterike. Pos kësaj, laptopi mban 512GB SSD për ruajtjen e të dhënave, mban një mori portesh USB për lidhje me pajisje të tjera periferike, është pajisur me kamerë praktike HD, lexues të gishtërinjëve dhe lexues të kartelave të memories, mban portet HDMI dhe audio jack si dhe funksionon me sistemin operativ Windows 10 Home.</p>
+      <span>Headphones</span>
+      <h1>Beats Solo 3</h1>
+      <p>Beats Solo 3 vijnë në treg me përmirësime të jashtzakonshme, me zërim të qartë dhe të balansuar, jetëgjatësi të baterisë deri në 40 orë dhe me dizajn e formë elegante e moderne që përshtatet me çdo përdorues <br>
+      Sistemi i zërimit është i përsosur, me Beats Solo 3, zëri është i qartë, i balansuar dhe kumbues. Çdo këngë, simfoni dhe operë do të ju duket sikurse të ishte reale, e çdo notë do përjetohet deri në fund. <br>
+        Beats Solo 3 mund të përdoren lehtësisht nga çdo kush, ju vetëm duhet të ndizni kufjet dhe mbani afër celularin iPhone, Apple Watch, iPad apo Mac dhe në mënyrë automatike të dy pajisjet do sinkronizohen përmes Bluetooth (por që mund të përdoren edhe me pajisje tjera përmes kabllos audio 3.5mm) dhe ju mund të filloni e dëgjoni çfarëdo që dëshironi për 40 orë rresht! Jetëgjatësia e këtyre kufjeve është mundësuar nga një çip i integruar në të W1, i cili jo vetëm që e ruan baterinë por edhe mundëson që të karikohet për vetëm 3 minuta përmes teknologjisë Fast Fuel.<br>
+        Kufjet, përpos kualitetit të jashtzakonshëm të zërit, njihen edhe për dizajnin dhe formën elegante e moderne. Veçanti e tyre është se kanë formë ergonomike e cila përshtatet në mënyrë të përkryer më veshët dhe kokën tuaj edhe pas orëve të gjatë dëgjimi, janë pa kabllo dhe palosen tejet lehtë. Po ashtu, kufjet kanë të integruara taste komanduese dhe mikrofon për të kontrolluar volumin e zërit dhe për të pranuar telefonata edhe kur jeni në lëvizje. <br>
+        Me Beats Solo 3 cdo gjë përjetohet ndryshe!
+      </p>
     </div>
+    <br>
+    <br>
+    <br>
  
     
  
     <!-- Product Pricing -->
     <div class="product-price">
-      <span>899$</span>
+      <span>148$</span>
       <a href="#" class="cart-btn">Add to cart</a>
     </div>
   </div>

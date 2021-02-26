@@ -56,7 +56,7 @@ include 'inc/header.php';
  
   <!-- Left Column / Headphones Image -->
   <div class="left-column">
-    <img data-image="red" class="active" src="./img/product4.jpg" alt="">
+    <img data-image="red" class="active" src="./img/product5.jpg" alt="">
   </div>
  
  
@@ -66,15 +66,15 @@ include 'inc/header.php';
     <!-- Product Description -->
     <div class="product-description">
       <span>Smartphone</span>
-      <h1>Iphone</h1>
-      <p>Ky celular vjen me ekran me prekje 4.7”, që shfaq imazhe me rezolucion 1334 x 750 pixel. Si pjesë përbërëse, ky celular ka pjesë harduerike të kualitetit të lartë të cilat mundësojnë operim dhe performancë të shpejtë e pandërprerje. Të gjitha proceset bazohen në procesorin gjashtë bërthamësh Apple A13 Bionic, i kombinuar me memorien e brendshme për ruajtjen e të dhënave të çfarëdoshme me kapacitet 64GB. Poashtu, Apple iPhone SE 2020, ka edhe dy kamera me të cilat shkrep e incizon imazhe me kualitet superior, një të pasme 12MP dhe një të përparme 7MP, të kombinuara edhe me senzor dhe fokus. Apple iPhone SE 2020 vjen me sistem operativ të instaluar Apple iOS, si dhe mundësi për lidhje me teknologjitë si Wi-Fi, Bluetooth, NFC, 4G LTE e GPS. Gjithashtu, posedon sensorët: Busull dixhital (sensori magnetik), sensori i dritës, sensor afërsije, sensori i lëvizjes, xhiroskop, dhe barometër. Vjen me ngjyrë të bardhë</p>
+      <h1>Samsung A71</h1>
+      <p>Duke u bazuar në modelet e njohura nga viti i kaluar, Samsung Galaxy A71 i ri sjell risi të mëtutjeshme për të përmirësuar veçoritë, nevojat e komunikimit, ndarjen, fotografinë dhe shikimin e përmbajtjes në internet. Në krahasim me A51, ai jep një ekran më të madh, performancë më të lartë, rezolucion më të lartë kamerash dhe një bateri më të madhe me karikim më të shpejtë. Zbuloni një pamje të gjerë të një ekrani 6.7 " me trup të plotë Infinity-O Super AMOLED. Përjetoni kënaqësi të madhe me një rezolucion më të gjerë prej 2400 x 1080 piksel, i cili jep një hap të këndshëm prej 393 ppi. Ju mund të shijoni një imazh me kontrast të lartë dhe shkëlqim, ekran i shkëlqyeshëm me ngjyra dhe kënde të gjera të shikimit. Kamera e re me katër lente ju lejon të kapni dhe shkëmbeni fotografi në një mënyrë revolucionare. Me katër kamera të nivelit të lartë, Galaxy A71 është krijuar për të kapur momentet e jetës që kanë rëndësi. Me kamerën kryesore, ultra të gjerë, makro dhe thellësi-fushe, e kombinuar me karakteristika inteligjente, ju lejon të kapni pothuajse çdo gjë që përjetoni me detaje të qarta dhe me ngjyra natyrale. Shijoni argëtim të pafund dhe biseda të gjata me një bateri 4500 mAh që jep jetë të gjatë të baterisë me një karikim të vetëm. Falë qëndrueshmërisë së jashtëzakonshme do të qëndroni në kontakt për shumë më gjatë. Dhe kur mbaroni energjinë, funksioni i karikimit të shpejtë 25W shfaqet. Ekrani me prekje Super AMOLED i Samsung Galaxy A71 ka një madhësi 6.7 " dhe rezolucion 2400 x 1080 piksel. Pajisja është e bazuar në një procesor 8- core Snapdragon 730 deri në 2.2 GHz me 6 GB memorie, 128 GB memorie të brendshme dhe kartë memorie microSD me 4x 64Mpx (f / 1.8) + 12Mpx (123 shkallë, f / 2.2) + 5Mpx (makro, f / 2.4) + 5Mpx (bokeh, f / 2.2) kamera të pasme të katërfishtë, kamerë selfie para 32Mpx (f / 2.2). Celulari është i pajisur edhe me teknologji wireless Bluetooth 5.0, NFC, Wi-Fi, GPS / GLONASS / GALILEO / BDS. Karakteristika të tjera përfshijnë një lexues të gjurmëve të gishtërinjve në ekran. Mundëson përdorimin në rrjetet 2G, 3G dhe LTE. Lidhësi themelor përmban një port modern USB Type-C dhe një 3.5 mm jack për kufje. Bateria është 4500 mAh dhe mbështet karikimin e shpejtë 25W. Sistemi operativ Android.</p>
     </div>
  
-   
+    
  
     <!-- Product Pricing -->
     <div class="product-price">
-      <span>600$</span>
+      <span>380$</span>
       <a href="#" class="cart-btn">Add to cart</a>
     </div>
   </div>

@@ -7,7 +7,7 @@ include 'inc/header.php';
   </div>
 
   <header class="header">
-<!-- hajdeee moree zooooot ishallaaaa e kryjm oo allaah -->
+
     <nav class="nav container">
       <div class="navigation d-flex">
         <div class="hamburger">
@@ -56,7 +56,7 @@ include 'inc/header.php';
  
   <!-- Left Column / Headphones Image -->
   <div class="left-column">
-    <img data-image="red" class="active" src="img/cat5.jpg" alt="">
+    <img data-image="red" class="active" src="./img/product7.jpg" alt="">
   </div>
  
  
@@ -65,16 +65,18 @@ include 'inc/header.php';
  
     <!-- Product Description -->
     <div class="product-description">
-      <span>Laptop</span>
-      <h1>Lenovo i5</h1>
-      <p>Shënim: Tastiera te pjesa numerike ka disa simbole çeke. Ndërsa, Microsoft Office është në verzion provues ose nuk është i instaluar fare. Lenovo IdeaPad S540-15IWL është dizajnuar që të përshtatet për të gjitha kërkesat tuaja specifike. Laptopi mban performancë të lartë, karakteristika shumë praktike dhe është më i lehtë dhe më i hollë sesa paraardhësit e tij. Punoni me efiçiencë dhe argëtohuni maksimalisht me këtë seri të laptopëve. Aksesori vjen i pajisur me procesorin 4-core Intel Core i5-8265U i cili kombinohet me 8GB RAM memorie të llojit DDR4, ekranin me prekje (touch) me madhësi 15.6", kualitet Full HD dhe rezolucion prej 1920 x 1080 piksela si dhe kartelën grafike NVIDIA GeForce GTX 1650 Max-Q për t'ju mundësuar që të shihni imazhe të pastërta dhe të detajizuara si dhe performancë të shpejtë kompjuterike. Pos kësaj, laptopi mban 512GB SSD për ruajtjen e të dhënave, mban një mori portesh USB për lidhje me pajisje të tjera periferike, është pajisur me kamerë praktike HD, lexues të gishtërinjëve dhe lexues të kartelave të memories, mban portet HDMI dhe audio jack si dhe funksionon me sistemin operativ Windows 10 Home.</p>
+      <span>Smartwatch</span>
+      <h1>U Watch U8</h1>
+      <p>Ora e mençur U Watch U8 me rrip gome dhe sistem rezistent ndaj shiut, pikave të ujit apo spërkatjes dhe vjen me shumë funksione operative. Është pajisje shumë funksionale e cila përdoret nga njerëz që duan ti kenë të gjitha gjërat në një vend. Pajisja ka ekran LCD touchscreen 1.48'' dhe ka të integruar teknologjinë Bluetooth 4.0, ka MicroUSB, mikrofon, matës të shpejtësisë, kompas, GPS, altoparlant dhe 512 MB ram. Ndërsa për rezultate më të mira lidhet me telefonin tuaj Android, në të cilin edhe jep mundësi për qasje në të dhënat e aktivitetit tuaj. Pajisja shpenzon shumë pak bateri gjatë funksionimit, ka jetëgjatësi të baterisë dy deri pesë ditë, ka të integruar teknologjinë Bluetooth dhe ka ngjyrë elegante të kuqe.</p>
     </div>
+    <br>
+    <br>
+    <br>
  
     
- 
     <!-- Product Pricing -->
     <div class="product-price">
-      <span>899$</span>
+      <span>55$</span>
       <a href="#" class="cart-btn">Add to cart</a>
     </div>
   </div>

@@ -57,7 +57,9 @@ include 'inc/header.php';
     <div class="product-center container">
       <div class="product">
         <div class="img-cover">
+          <a href="produkti.php">
           <img src="./img/product1.jpg" alt="" />
+        </a>
         </div>
         <p>Hp Pavilion i5</p>
         <div class="rating">
@@ -72,8 +74,15 @@ include 'inc/header.php';
 
       <div class="product">
         <div class="img-cover">
-          <img src="./img/product2.jpg" alt="" />
+          <a href="produkti2.php">
+          <img src="./img/camera.jpg" alt="" />
+          </a>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <p>Security camera</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
@@ -87,7 +96,9 @@ include 'inc/header.php';
 
       <div class="product">
         <div class="img-cover">
+          <a href="produkti3.php">
           <img src="./img/product3.jpg" alt="" />
+          </a>
         </div>
         <p>Smartwatch</p>
         <div class="rating">
@@ -101,7 +112,9 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti4.php">
           <img src="./img/product4.jpg" alt="" />
+          </a>
         </div>
         <p>Smartphone</p>
         <div class="rating">
@@ -125,7 +138,10 @@ include 'inc/header.php';
     <div class="product-center container">
       <div class="product">
         <div class="img-cover">
+          <a href="produkti.php">
           <img src="./img/product1.jpg" alt="" />
+          </a>
+          
         </div>
         <p>Hp Pavilion i5</p>
         <div class="rating">
@@ -140,8 +156,15 @@ include 'inc/header.php';
 
       <div class="product">
         <div class="img-cover">
-          <img src="./img/product2.jpg" alt="" />
+          <a href="produkti2.php">
+           <img src="./img/camera.jpg" alt="" />
+          </a>
         </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <p>Security cameras</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
@@ -155,7 +178,9 @@ include 'inc/header.php';
 
       <div class="product">
         <div class="img-cover">
+          <a href="produkti3.php">
           <img src="./img/product3.jpg" alt="" />
+        </a>
         </div>
         <p>Smartwatch</p>
         <div class="rating">
@@ -169,8 +194,10 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti4.php">
           <img src="./img/product4.jpg" alt="" />
-        </div>
+          </a>        
+         </div>
         <p>Smartphone</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
@@ -183,7 +210,9 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti5.php">
           <img src="./img/product5.jpg" alt="" />
+          </a>
         </div>
         <p>Android smartphone</p>
         <div class="rating">
@@ -197,7 +226,9 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti6.php">
           <img src="./img/product6.jpg" alt="" />
+          </a>
         </div>
         <p>Headphones PRO</p>
         <div class="rating">
@@ -211,7 +242,9 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
+          <a href="produkti7.php">
           <img src="./img/product7.jpg" alt="" />
+          </a>
         </div>
         <p>Smartwatch PRO</p>
         <div class="rating">
@@ -225,8 +258,12 @@ include 'inc/header.php';
       </div>
       <div class="product">
         <div class="img-cover">
-          <img src="./img/product2.jpg" alt="" />
+          <a href="produkti8.php">
+          <img src="./img/11.jpg" alt="" />
+          </a>
         </div>
+        <br>
+        <br>
         <p>Security camera X</p>
         <div class="rating">
           <i class="bx bxs-star"></i>
@@ -246,19 +283,25 @@ include 'inc/header.php';
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
+  <a href="produkti.php">
   <img src="./img/product1.jpg" style="width:100%">
+</a>
   <div class="text">Caption Text</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="./img/product2.jpg" style="width:100%">
+  <a href="produkti2.php">
+  <img src="./img/camera.jpg" style="width:100%">
+  </a>
   <div class="text">Caption Two</div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">3 / 3</div>
+  <a href="produkti4.php">
   <img src="./img/product4.jpg" style="width:100%">
+</a>
   <div class="text">Caption Three</div>
 </div>
 

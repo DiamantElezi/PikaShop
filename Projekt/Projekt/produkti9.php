@@ -7,7 +7,7 @@ include 'inc/header.php';
   </div>
 
   <header class="header">
-<!-- hajdeee moree zooooot ishallaaaa e kryjm oo allaah -->
+
     <nav class="nav container">
       <div class="navigation d-flex">
         <div class="hamburger">
@@ -56,7 +56,7 @@ include 'inc/header.php';
  
   <!-- Left Column / Headphones Image -->
   <div class="left-column">
-    <img data-image="red" class="active" src="img/cat5.jpg" alt="">
+    <img data-image="red" class="active" src="./img/cat3.jpg" alt="">
   </div>
  
  
@@ -65,16 +65,16 @@ include 'inc/header.php';
  
     <!-- Product Description -->
     <div class="product-description">
-      <span>Laptop</span>
-      <h1>Lenovo i5</h1>
-      <p>Shënim: Tastiera te pjesa numerike ka disa simbole çeke. Ndërsa, Microsoft Office është në verzion provues ose nuk është i instaluar fare. Lenovo IdeaPad S540-15IWL është dizajnuar që të përshtatet për të gjitha kërkesat tuaja specifike. Laptopi mban performancë të lartë, karakteristika shumë praktike dhe është më i lehtë dhe më i hollë sesa paraardhësit e tij. Punoni me efiçiencë dhe argëtohuni maksimalisht me këtë seri të laptopëve. Aksesori vjen i pajisur me procesorin 4-core Intel Core i5-8265U i cili kombinohet me 8GB RAM memorie të llojit DDR4, ekranin me prekje (touch) me madhësi 15.6", kualitet Full HD dhe rezolucion prej 1920 x 1080 piksela si dhe kartelën grafike NVIDIA GeForce GTX 1650 Max-Q për t'ju mundësuar që të shihni imazhe të pastërta dhe të detajizuara si dhe performancë të shpejtë kompjuterike. Pos kësaj, laptopi mban 512GB SSD për ruajtjen e të dhënave, mban një mori portesh USB për lidhje me pajisje të tjera periferike, është pajisur me kamerë praktike HD, lexues të gishtërinjëve dhe lexues të kartelave të memories, mban portet HDMI dhe audio jack si dhe funksionon me sistemin operativ Windows 10 Home.</p>
+      <span>Smartphone</span>
+      <h1>Samsung</h1>
+      <p>Ky celular përmban tipare të përkyera teknologjike dhe fizike për performancë të shkëlqyer. Ka ekran SAMOLED me madhësi 6.5 inç dhe ofron rezolucion fantastik 2400 x 1080 pikselë. Mbështet teknologjinë HDR10+. Është i pajisur me procesor të fuqishëm Exynos 990 (2x2.73 GHz / 2x2.50 GHz / 4x2.0 GHz) që përmban 8 bërthama. Memoria RAM ka kapacitet 6GB ndërsa për të dhëna ka në dispozicion 128GB. Kamera e pasme është me rezolucion 12 + 12 +8 MPX ndërsa kamera e përparme 32 MPX. Përfshin stabilizim elektronik dhe optik të imazhit. Rezolucioni i videos është 7680 × 4320 pikselë (8K). Ka edhe përshpejtues grafik Mali G77 MP11 si dhe mbështet standardet GSM, LTE, UMTS. Lidhet përmes konektorit USB tipi C ose Bluetooth 5.0. Ndër veçori të avancuara përfshin Dual SIM, lexues të shenjave të gishtave, OTG, karikim me wireless, busullë digjitale, sensor të dritës, afërsisë, lëvizjes dhe gjiroskop, navigues Beidou, Galileo, GPS, Glonass dhe mbështetje NFC. Bateria ka kapacitet 4500 mAh. Shkalla e mbrojtjes është IP68. Sistemi operativ është Google Android. Vjen me ngjyrë të portokalltë.</p>
     </div>
  
     
  
     <!-- Product Pricing -->
     <div class="product-price">
-      <span>899$</span>
+      <span>1110$</span>
       <a href="#" class="cart-btn">Add to cart</a>
     </div>
   </div>

@@ -7,7 +7,7 @@ include 'inc/header.php';
   </div>
 
   <header class="header">
-<!-- hajdeee moree zooooot ishallaaaa e kryjm oo allaah -->
+
     <nav class="nav container">
       <div class="navigation d-flex">
         <div class="hamburger">
@@ -56,7 +56,7 @@ include 'inc/header.php';
  
   <!-- Left Column / Headphones Image -->
   <div class="left-column">
-    <img data-image="red" class="active" src="img/cat5.jpg" alt="">
+    <img data-image="red" class="active" src="./img/cat2.jpg" alt="">
   </div>
  
  
@@ -65,16 +65,32 @@ include 'inc/header.php';
  
     <!-- Product Description -->
     <div class="product-description">
-      <span>Laptop</span>
-      <h1>Lenovo i5</h1>
-      <p>Shënim: Tastiera te pjesa numerike ka disa simbole çeke. Ndërsa, Microsoft Office është në verzion provues ose nuk është i instaluar fare. Lenovo IdeaPad S540-15IWL është dizajnuar që të përshtatet për të gjitha kërkesat tuaja specifike. Laptopi mban performancë të lartë, karakteristika shumë praktike dhe është më i lehtë dhe më i hollë sesa paraardhësit e tij. Punoni me efiçiencë dhe argëtohuni maksimalisht me këtë seri të laptopëve. Aksesori vjen i pajisur me procesorin 4-core Intel Core i5-8265U i cili kombinohet me 8GB RAM memorie të llojit DDR4, ekranin me prekje (touch) me madhësi 15.6", kualitet Full HD dhe rezolucion prej 1920 x 1080 piksela si dhe kartelën grafike NVIDIA GeForce GTX 1650 Max-Q për t'ju mundësuar që të shihni imazhe të pastërta dhe të detajizuara si dhe performancë të shpejtë kompjuterike. Pos kësaj, laptopi mban 512GB SSD për ruajtjen e të dhënave, mban një mori portesh USB për lidhje me pajisje të tjera periferike, është pajisur me kamerë praktike HD, lexues të gishtërinjëve dhe lexues të kartelave të memories, mban portet HDMI dhe audio jack si dhe funksionon me sistemin operativ Windows 10 Home.</p>
+      <span>Headphones</span>
+      <h1>SteelSeries Artics 7</h1>
+      <p>SteelSeries Arctis 7 i plotëson të gjitha kërkesat specifike të gamerave. Zëri i përsosur do ju mahnis me pastërtinë e kristaltë dhe fuqinë e shpërndarjes. Falë dizajnit pa kabllo dhe dizajnit të rehatshëm, ato janë shumë të rehatshme për t'u mbajtur pa i lënduar veshët tuaj për orë të tëra. Dhe, poashtu, ajo është pajisur me një mikrofon të cilin mund ta hiqni.<br>
+      Zë i përsosur 7.1 Surround Sound
+
+Dizajni elegant dhe mahnitës i SteelSeries Arctis 7 ju mundëson të rehatoni kufjet ashtu siç i dëshironi me ndërtimin e ramit lëvizës dhe praktik. Pos kësaj, teknologjia 3D Surround Sound 7.1 do ju mundësoj të dëgjoni muzikën e zërit kristal të pastër ashtu si gjithmonë që i keni menduar. Lëshojeni muzikën, mbyllni sytë dhe nuk do të dini dallimin ndërmjet dhomës tuaj të ditës dhe koncertit. Kufjet funksionojnë nën frekuencat 20 - 20,000 Hz.<br>
+Nuk do i vëresh që i ke vendosur
+
+Dizajni praktik dhe i veçantë i kufjeve SteelSeries Arctis 7 me sfungjer të butë do ju ofroj rehati maksimale pa e vërejtur që i keni vendosur për një kohë të gjatë.
+Mikrofon praktik<br>
+
+SteelSeries Arctis 7 janë të pajisura me mikrofonin praktik dhe të kualitetit të lartë që do ju mundësoj të përcjellni zërin tuaj përsosshmërisht përgjatë video konferencave.
+
+Lidhje pa kabllo (wireless)<br>
+
+Kufjet mund t'i lidhni me kompjuter, laptop dhe pajisje të tjera nëpërmjet lidhjes pa kabllo ( wireless) dhe mund të qëndroni larg tyre deri në 12 metra, por mund t'i lidhni edhe përmes kabllos me konektor jack 3.5mm. Pos kësaj, kufjet ju mundësojnë të kontrolloni volumin direkt në padin e anës së djathtë.</p>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
  
-    
- 
+   
     <!-- Product Pricing -->
     <div class="product-price">
-      <span>899$</span>
+      <span>179$</span>
       <a href="#" class="cart-btn">Add to cart</a>
     </div>
   </div>

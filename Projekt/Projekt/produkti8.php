@@ -7,7 +7,7 @@ include 'inc/header.php';
   </div>
 
   <header class="header">
-<!-- hajdeee moree zooooot ishallaaaa e kryjm oo allaah -->
+
     <nav class="nav container">
       <div class="navigation d-flex">
         <div class="hamburger">
@@ -56,7 +56,7 @@ include 'inc/header.php';
  
   <!-- Left Column / Headphones Image -->
   <div class="left-column">
-    <img data-image="red" class="active" src="img/cat5.jpg" alt="">
+    <img data-image="red" class="active" src="./img/11.jpg" alt="">
   </div>
  
  
@@ -65,16 +65,19 @@ include 'inc/header.php';
  
     <!-- Product Description -->
     <div class="product-description">
-      <span>Laptop</span>
-      <h1>Lenovo i5</h1>
-      <p>Shënim: Tastiera te pjesa numerike ka disa simbole çeke. Ndërsa, Microsoft Office është në verzion provues ose nuk është i instaluar fare. Lenovo IdeaPad S540-15IWL është dizajnuar që të përshtatet për të gjitha kërkesat tuaja specifike. Laptopi mban performancë të lartë, karakteristika shumë praktike dhe është më i lehtë dhe më i hollë sesa paraardhësit e tij. Punoni me efiçiencë dhe argëtohuni maksimalisht me këtë seri të laptopëve. Aksesori vjen i pajisur me procesorin 4-core Intel Core i5-8265U i cili kombinohet me 8GB RAM memorie të llojit DDR4, ekranin me prekje (touch) me madhësi 15.6", kualitet Full HD dhe rezolucion prej 1920 x 1080 piksela si dhe kartelën grafike NVIDIA GeForce GTX 1650 Max-Q për t'ju mundësuar që të shihni imazhe të pastërta dhe të detajizuara si dhe performancë të shpejtë kompjuterike. Pos kësaj, laptopi mban 512GB SSD për ruajtjen e të dhënave, mban një mori portesh USB për lidhje me pajisje të tjera periferike, është pajisur me kamerë praktike HD, lexues të gishtërinjëve dhe lexues të kartelave të memories, mban portet HDMI dhe audio jack si dhe funksionon me sistemin operativ Windows 10 Home.</p>
+      <span>Security</span>
+      <h1>Arlo SmartHubs</h1>
+      <p>Kujdesuni për shtëpinë ose biznesin tuaj me këtë set Arlo SmartHubs dhe dy/katër kamera wireless që ruajnë pronën tuaj ditë e natë. Arlo Pro 3 ofron instalim të lehtë brenda pak minutash dhe aftësinë për të parë regjistrimin direkt në telefon. Poashtu, kamerat e përparuara kohët e fundit janë pajisur gjithnjë e më shumë me dritë të integruar. Aktivizohet automatikisht (bazuar në zbulimin e lëvizjes) ose manualisht sa herë që keni nevojë për të. Kamera do të funksionojë kështu si një reflektor me fuqi të mesme dhe drita gjithashtu mund të trembë vizitorët e paftuar. Lidheni me kamerën dhe kontrolloni funksionet e saj përmes asistentëve tuaj të preferuar inteligjentë. Ju mund të përdorni një numër opsionesh. Pajisja punon me teknologjinë Apple Homekit, Amazon Alexa dhe Google Assistant. Përveç kësaj, kamera ofron funksionim të baterisë 3 deri në 6 muaj, duke përfshirë qendrën lidhëse (Arlo SmartHub), me rezolucion 4 Mpix, 2560 x 1440 piksel (2K, 1080p dhe modalitete 720p). Poashtu, kamera mbështet kodimin dhe gjurmim automatik, HDR, H.264 dhe H.265 dhe posedon ndërfaqet: WiFi 802.11 b / g / n. Ka përmasat 89mm x 52mm x 78.4mm dhe peshon 316g.</p>
     </div>
- 
+    <br>
+    <br>
     
+ 
+   
  
     <!-- Product Pricing -->
     <div class="product-price">
-      <span>899$</span>
+      <span>148$</span>
       <a href="#" class="cart-btn">Add to cart</a>
     </div>
   </div>
