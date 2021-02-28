@@ -35,9 +35,7 @@ include 'inc/header.php';
               </li>
               <li class="nav-item">
                 <a href="login.php" class="nav-link"><b>Login</b></a> 
-                 <li class="nav-item">
-                <a href="produkti.php" class="nav-link"><b>product</b></a> 
-              </li>
+              
           </ul>
         </div>
 
