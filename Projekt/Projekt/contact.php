@@ -1,12 +1,13 @@
 
 <?php 
+session_start();
 include 'inc/header.php';
 ?>
 <style>
   input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 2px color:;
+  border: 2px color;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -69,6 +70,19 @@ input[type=submit]:hover {
               <li class="nav-item">
                 <a href="login.php" class="nav-link"><b>Login</b></a> 
               </li>
+  
+                      
+              <?php
+      if (isset($_SESSION["role"])) {
+      ?>
+      <li class="nav-item">
+        <a href="logout.php">
+        <li><b><i>Logout </i><b></li>
+        </a>
+        </li>
+      <?php
+      }
+      ?>
           </ul>
         </div>
         

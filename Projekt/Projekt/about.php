@@ -1,4 +1,5 @@
-<?php 
+<?php
+session_start();
 include 'inc/header.php';
 ?>
 
@@ -36,6 +37,18 @@ include 'inc/header.php';
                   <li class="nav-item">
                     <a href="login.php" class="nav-link"><b>Login</b></a> 
                   </li>
+      
+              <?php
+      if (isset($_SESSION["role"])) {
+      ?>
+      <li class="nav-item">
+        <a href="logout.php">
+        <li><b><i>Logout </i><b></li>
+        </a>
+        </li>
+      <?php
+      }
+      ?>
               </ul>
             </div>    
             <div class="icons d-flex">

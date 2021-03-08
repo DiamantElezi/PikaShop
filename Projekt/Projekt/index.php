@@ -1,6 +1,8 @@
 <?php 
+session_start();
 include 'inc/header.php';
 ?>
+
   <div class="promo">
     <span>Get 30% off while using the code "336633"!!</span>
   </div>
@@ -34,8 +36,25 @@ include 'inc/header.php';
               </li>
               <li class="nav-item">
                 <a href="login.php" class="nav-link"><b>Login</b></a> 
-                
               </li>
+              <!-- <li class="nav-item"><a href="admin/home.php">Dashboard</a></li> -->
+        
+ 
+              
+
+              <?php
+      if (isset($_SESSION["role"])) {
+      ?>
+      <li class="nav-item">
+        <a href="logout.php">
+        <li><b><i>Logout </i><b></li>
+        </a>
+        </li>
+      <?php
+      }
+      ?>
+             
+              
           </ul>
         </div>
 
@@ -373,6 +392,4 @@ include 'inc/header.php';
 
   <!-- Script -->
   <script src="js/index.js"></script>
-</body>
 
-</html>

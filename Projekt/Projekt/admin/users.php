@@ -1,11 +1,10 @@
 <?php
-require 'database/dbconfig.php';
+
 include 'inc/head.php';
 include 'inc/navbar.php';
 
-
-$users = $connection->query("SELECT * FROM users")->fetchAll(PDO::FETCH_ASSOC);
 ?>
+
 
 <div class="wrapper">
     <h1>User Table</h1>
@@ -20,13 +19,7 @@ $users = $connection->query("SELECT * FROM users")->fetchAll(PDO::FETCH_ASSOC);
             </tr>
           </thead>
           <tbody>
-              <?php foreach ($users as $i => $user) : ?>
-              <tr>
-                <td><?php echo $i + 1 ?></td>
-                <td><?php echo $user['username']; ?></td>
-                <td><?php echo $user['email']; ?></td>
-              </tr>
-              <?php endforeach; ?>
+             
           </tbody>
           
       </table>

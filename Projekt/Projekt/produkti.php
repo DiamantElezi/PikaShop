@@ -7,7 +7,7 @@ include 'inc/header.php';
   </div>
 
   <header class="header">
-<!-- hajdeee moree zooooot ishallaaaa e kryjm oo allaah -->
+
     <nav class="nav container">
       <div class="navigation d-flex">
         <div class="hamburger">
@@ -35,6 +35,7 @@ include 'inc/header.php';
               </li>
               <li class="nav-item">
                 <a href="login.php" class="nav-link"><b>Login</b></a> 
+                
                  
           </ul>
         </div>

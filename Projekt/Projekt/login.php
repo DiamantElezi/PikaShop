@@ -1,76 +1,6 @@
-<?php 
-require 'config.php';
+<?php
 session_start();
 
-$errors = [];
-$errors2 = [];
-$username = "";
-$email = "";
-$password = "";
-$cpassword = "";
-
-if (isset($_POST['submit_login'])) {
-  $username = $_POST['username'];
-  $password = $_POST['password'];
-
-  $query = $connection->prepare('SELECT * FROM users WHERE username = :username');
-  $query->bindValue(":username", $username);
-  $query->execute();
-
-  $user = $query->fetch();
-  $userName = $user["username"] ?? null;
-  $userPassword = $user["password"] ?? null;
-
-
-  if (trim($username) === "" || trim($password) === "")
-    $errors[] = "Fields must be filled!";
-  else if (!$userName)
-    $errors[] = "This user doesn't exist!";
-  else if ($username === $userName && !password_verify($password, $userPassword))
-    $errors[] = "Wrong password!";
-  else if ($username !== $userName && !password_verify($password, $userPassword))
-    $errors[] = "Wrong Credentials";
-  else {
-    $_SESSION['id'] = $user['id'];
-    $_SESSION['username'] = $user['username'];
-    $_SESSION['email'] = $user['email'];
-    header("Location: ./admin/index.php");
-  }
-}
-
-if (isset($_POST['submit_signup'])) {
-  $username = $_POST['username'];
-  $email = $_POST['email'];
-  $password = $_POST['password'];
-
-  $query = $connection->prepare("SELECT * FROM users WHERE email=:email");
-  $query->bindValue(":email", $email);
-  $query->execute();
-  $userExist = $query->fetch(PDO::FETCH_ASSOC);
-
-  if (!$username) {
-    $errors2[] = "Username is required!";
-  } else if (!$email) {
-    $errors2[] = "Email is required!";
-  } else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $errors2[] = "Invalid email format!";
-  } else if (!$password) {
-    $errors2[] = "Password is required!";
-  }
-
-  if ($userExist) {
-    $errors2[] = "This user exist!";
-  }
-  if (empty($errors2)) {
-    $query = $connection->prepare('INSERT INTO users (username, email, password) VALUES(:username, :email, :password)');
-    $query->bindValue(":username", $username);
-    $query->bindValue(":email", $email);
-    $query->bindValue(":password", password_hash($password, PASSWORD_DEFAULT));
-
-    $query->execute();
-    header('Location: login.php');
-  }
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -114,48 +44,69 @@ if (isset($_POST['submit_signup'])) {
               <li class="nav-item">
                 <a href="login.php" class="nav-link active"><b>Login</b></a> 
               </li>
+			  
+              <?php
+              
+      if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
+      ?>
+          <li class="nav-item">
+        <a href="../admin/home.php">
+          Dashboard
+        </a>
+        </li>
+      <?php
+      }
+      ?>
+              
+              <?php
+      if (isset($_SESSION["role"])) {
+      ?>
+      <li class="nav-item">
+        <a href="logout.php">
+          <li><b><i>Logout </i><b></li>
+        </a>
+        </li>
+      <?php
+      }
+      ?>
+			  
           </ul>
       </div>
-      <?php foreach ($errors as $error) : ?>
-                   <div style="color:red; background: lightred; border:red;" role="alert">
-                           <h5><?php echo $error; ?></h5>
-                   </div>
-           <?php endforeach; ?>
-
-    
 
    <br><br><br>
    
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-		<form id="form2" method="POST">
+	<form id="form2" method="POST" action="PhpBackend\loginAuth.php" >
 			<h1>Create Account</h1>
 			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				<a href="https://www.facebook.com" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.gmail.com" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="https://www.linkedin.com" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>or use your email for registration</span>
-			<input type="text" name="username" placeholder="username" id="sname"/>
-			<input type="text" name="email" placeholder="Email" id="semail"/>
-			<input type="password" name="password" placeholder="Password" id="spassword" />
+			<input type="text" name="usernameR" placeholder="username" id="sname" >
+			<input type="text" name="emailR" placeholder="Email" id="semail" >
+			<input type="password" name="passwordR" placeholder="Password" id="spassword" />
 			<button type="submit" name="submit_signup" value="register">Sign Up</button>
+			<br>
+			<small>Already registered ? <a href="login.php"><b><i><u>Sign In</u></i><b></a></small>
 		</form>
 	</div> 
 	<div class="form-container sign-in-container">
-		<form id="form" method="POST">
+		<form id="form" method="POST" action="PhpBackend\loginAuth.php">
 			<h1>Sign in</h1>
 			<div class="social-container">
-				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+				<a href="https://www.facebook.com" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.gmail.com" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="https://www.linkedin.com" class="social"><i class="fab fa-linkedin-in"></i></a>
 			</div>
 			<span>or use your account</span>
 			<div id="error"></div>
 			<input id="name" name="username" type="text" placeholder="Username">
 			<input id="password" name="password" type="password" placeholder="Password">
-			<a href="#">Forgot your password?</a>
-			<button type="submit" name="submit_login">Submit</button>
+			
+			<button type="submit" name="submit_login" value="login">Login</button>
 		</form>
 	</div>
 	<div class="overlay-container">
