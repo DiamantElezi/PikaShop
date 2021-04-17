@@ -38,6 +38,17 @@ include 'inc/header.php';
                 <a href="login.php" class="nav-link"><b>Login</b></a> 
               </li>
               <!-- <li class="nav-item"><a href="admin/home.php">Dashboard</a></li> -->
+              <?php
+ 
+ if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
+ ?>
+    <li class="nav-item">
+              <a href="dashboard.php" class="nav-link"><b>Dashboard</b></a>
+            </li>
+ <?php
+ }
+ ?>
+
         
  
               

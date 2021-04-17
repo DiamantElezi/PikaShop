@@ -49,18 +49,34 @@ session_start();
               
       if (isset($_SESSION["role"]) && $_SESSION['role'] == '1') {
       ?>
+      <script> console.log('if here') </script>
           <li class="nav-item">
         <a href="../admin/home.php">
           Dashboard
         </a>
         </li>
+        <?php
+      }
+      ?>
+
+              
+<?php
+      if (isset($_COOKIE['admin'])) {
+      ?>
+      <script> console.log('hereeee') </script>
+      <li class="nav-item">
+        <a href="logout.php">
+          <li><b><i>Logout </i><b></li>
+        </a>
+        </li>
       <?php
       }
       ?>
-              
-              <?php
-      if (isset($_SESSION["role"])) {
+
+<?php
+      if (isset($_COOKIE['simpleuser'])) {
       ?>
+      <script> console.log('hereeee') </script>
       <li class="nav-item">
         <a href="logout.php">
           <li><b><i>Logout </i><b></li>
@@ -77,7 +93,7 @@ session_start();
    
 <div class="container" id="container">
 	<div class="form-container sign-up-container">
-	<form id="form2" method="POST" action="PhpBackend\loginAuth.php" >
+	<form id="form2" method="POST" action="./PhpBackend/loginAuth.php" >
 			<h1>Create Account</h1>
 			<div class="social-container">
 				<a href="https://www.facebook.com" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -94,7 +110,7 @@ session_start();
 		</form>
 	</div> 
 	<div class="form-container sign-in-container">
-		<form id="form" method="POST" action="PhpBackend\loginAuth.php">
+		<form id="form" method="POST" action="./PhpBackend/loginAuth.php">
 			<h1>Sign in</h1>
 			<div class="social-container">
 				<a href="https://www.facebook.com" class="social"><i class="fab fa-facebook-f"></i></a>
@@ -107,6 +123,8 @@ session_start();
 			<input id="password" name="password" type="password" placeholder="Password">
 			
 			<button type="submit" name="submit_login" value="login">Login</button>
+
+   
 		</form>
 	</div>
 	<div class="overlay-container">
