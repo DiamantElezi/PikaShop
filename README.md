@@ -1,1 +1,1 @@
-# Projekti-WEB-Diamant-Elezi-Aurel-Sylaj-
+#E-commerce Website made with HTML , CSS , JAVASCRIPT , PHP , SQL
